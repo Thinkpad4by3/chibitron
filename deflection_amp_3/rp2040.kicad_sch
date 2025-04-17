@@ -7785,7 +7785,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB P/N" ""
+		(property "JLCPCB P/N" "ABM8-272-T3"
 			(at 96.52 114.3 0)
 			(effects
 				(font
@@ -8138,7 +8138,7 @@
 				)
 			)
 		)
-		(property "JLCPCB P/N" "SC0914(13)"
+		(property "JLCPCB P/N" "RP2040"
 			(at 138.43 101.6 0)
 			(effects
 				(font
@@ -8885,7 +8885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "MCP4822-E_SN:SOIC127P599X175-8N"
 			(at 262.89 96.52 0)
 			(effects
 				(font
@@ -8921,7 +8921,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB P/N" "double check footprint"
+		(property "JLCPCB P/N" "MCP4822-E/SN"
 			(at 242.57 88.9 0)
 			(effects
 				(font
@@ -9692,7 +9692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "MCP4822-E_SN:SOIC127P599X175-8N"
 			(at 262.89 55.88 0)
 			(effects
 				(font
@@ -9728,7 +9728,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB P/N" "double check footprint"
+		(property "JLCPCB P/N" "MCP4822-E/SN"
 			(at 242.57 48.26 0)
 			(effects
 				(font

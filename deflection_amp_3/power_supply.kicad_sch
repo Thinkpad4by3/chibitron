@@ -4041,7 +4041,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB P/N" "FS43X105K251EGG"
+		(property "JLCPCB P/N" "0805F224M500NT"
 			(at 114.3 123.19 0)
 			(effects
 				(font
@@ -4765,7 +4765,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB P/N" "FS55X105K251EGG"
+		(property "JLCPCB P/N" "FS43X105K251EGG"
 			(at 189.23 91.44 0)
 			(effects
 				(font
@@ -5221,7 +5221,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB P/N" "FS43X105K251EGG"
+		(property "JLCPCB P/N" "0805F224M500NT"
 			(at 114.3 67.31 0)
 			(effects
 				(font
@@ -6459,7 +6459,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB P/N" "FS55X105K251EGG"
+		(property "JLCPCB P/N" "FS43X105K251EGG"
 			(at 189.23 35.56 0)
 			(effects
 				(font
@@ -6789,7 +6789,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB P/N" "FS55X105K251EGG"
+		(property "JLCPCB P/N" "FS43X105K251EGG"
 			(at 158.75 85.09 0)
 			(effects
 				(font
