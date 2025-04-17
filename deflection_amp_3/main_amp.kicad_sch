@@ -2390,7 +2390,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB P/N" "FMMT558QTA"
+		(property "JLCPCB P/N" "FMMT560QTA"
 			(at 147.32 62.23 0)
 			(effects
 				(font
@@ -2702,7 +2702,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB P/N" "FMMT558QTA"
+		(property "JLCPCB P/N" "FMMT560QTA"
 			(at 142.24 100.33 0)
 			(effects
 				(font
@@ -3716,7 +3716,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB P/N" "FMMT558QTA"
+		(property "JLCPCB P/N" "FMMT560QTA"
 			(at 129.54 100.33 0)
 			(effects
 				(font
@@ -3822,7 +3822,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB P/N" "FMMT558QTA"
+		(property "JLCPCB P/N" "FMMT560QTA"
 			(at 160.02 62.23 0)
 			(effects
 				(font

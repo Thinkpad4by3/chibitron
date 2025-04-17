@@ -4983,7 +4983,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G"
 			(at 34.29 78.74 0)
 			(effects
 				(font
@@ -5019,7 +5019,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB P/N" "DX07S016JA1R1500"
+		(property "JLCPCB P/N" "TYPE-C 16PIN 2MD(073)"
 			(at 30.48 58.42 0)
 			(effects
 				(font
@@ -7460,7 +7460,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB P/N" "MFU0805FF02000P100"
+		(property "JLCPCB P/N" "MFU0805FF02000P500"
 			(at 38.1 36.83 0)
 			(effects
 				(font
