@@ -12,3 +12,9 @@ Chibitron is a Electrostatic CRT driver design built to solve the issues I've ha
 
 ## Design of the system
 Currently, the prototype boards are setup to run X/Y mode and generate HV. The anode is referenced to ground, with the cathode being at -1500V. HV is generated through a flyback, and Deflection is generated through two boost converters making a total of 250V. The main amplifiers are a class-AB with full 250V swing ability, GBWP of ~10MHz, and 100KHz @ 200V with minimal distortion. Amplifiers are closed loop feedback and setup in pairs for the pairs of deflection plates. Current Gen3 Deflection amp runs off a RP2040, altho subject to change in later revisions. 
+
+## Current files:
+Deflection_board & Deflection_board_2: analog input amplifiers. Wouldn't recommend building theese
+Main_supply & main_supply2: HV supplies, I would not recommend building either.
+deflection_board_3: RP2040 based digital board. code not available yet, but works pretty well. needs modification. 
+
