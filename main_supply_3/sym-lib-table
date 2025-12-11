@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ACPL_ISO_OPAMP")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ACPL_ISO_OPAMP.kicad_sym")(options "")(descr ""))
+)

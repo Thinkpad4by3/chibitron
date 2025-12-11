@@ -17797,6 +17797,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "/Users/jasonjackrel/Downloads/B3FS-1012--3DModel-STEP-1.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -23140,6 +23151,17 @@
 			(uuid "3c28ddc2-c92a-4889-8659-f64fb8a04e32")
 		)
 		(embedded_fonts no)
+		(model "/Users/jasonjackrel/Downloads/MCP4822-E_SN.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -27089,6 +27111,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/jasonjackrel/Downloads/B3FS-1012--3DModel-STEP-1.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -48557,6 +48590,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/jasonjackrel/Downloads/USB4105GFA--3DModel-STEP-510211.STEP"
+			(offset
+				(xyz 0 -2.25 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
