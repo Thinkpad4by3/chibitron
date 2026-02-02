@@ -19,24 +19,24 @@ Z-axis control is currently a WIP, but is going to be fully DC coupled.
 Currently, system has been tested with over a dozen CRTs, all showing clear and bright pictures with excellent clarity and brilliance. Tubes can be swapped in and out quickly with only minor tweaks to the board trimmer potentiometers. 
 
 ## CRT terminology:
--Electrostatic CRT: Type of cathode-ray tube that uses capacitive plates to steer an electron beam with electric field instead of magnetic field.
--H (Heater): Heater, used to heat cathode and cause thermionic emission of electrons.
--K (Cathode): Cathode of tube, creates free electrons
--G1 (Grid): Grid control voltage, negatively biased from cathode to control electron beam current (and therefore beam brightness)
--A1 (Focus): Focus control voltage, used to create an electron lens, focusing beam to tight point on the screen surface
--A2 (Accelerator): Main anode for accelerating electrons towards screen. 
--Dx (Deflection): Plates numbered 1-4 for deflecting beam in X-Y direction. 1-2 are pair, 3-4 pair, with 3-4 usually being the more sensitive pair
-    -some tubes tie D1/D3/A2 together, known as single-ended deflection
--Astigmatism: generated through an offset between Dx neutral voltage and the A2 voltage.
--A3 (Post-deflection Accelerator): Anode inside the bell of the CRT which will accelerate electrons further after deflection. Used for increasing brightness without affecting deflection sensitivity.
+Electrostatic CRT: Type of cathode-ray tube that uses capacitive plates to steer an electron beam with electric field instead of magnetic field  
+H (Heater): Heater, used to heat cathode and cause thermionic emission of electrons  
+K (Cathode): Cathode of tube, creates free electrons  
+G1 (Grid): Grid control voltage, negatively biased from cathode to control electron beam current (and therefore beam brightness)  
+A1 (Focus): Focus control voltage, used to create an electron lens, focusing beam to tight point on the screen surface  
+A2 (Accelerator): Main anode for accelerating electrons towards screen   
+Dx (Deflection): Plates numbered 1-4 for deflecting beam in X-Y direction. 1-2 are pair, 3-4 pair, with 3-4 usually being the more sensitive pair  
+    -some tubes tie D1/D3/A2 together, known as single-ended deflection  
+Astigmatism: generated through an offset between Dx neutral voltage and the A2 voltage.  
+A3 (Post-deflection Accelerator): Anode inside the bell of the CRT which will accelerate electrons further after deflection. Used for increasing brightness without affecting deflection sensitivity.  
 
--Phosphor: coating on the front of the tube that glows when struck with electrons. Comes in many varieties and colors; most commonly, green. 
+Phosphor: coating on the front of the tube that glows when struck with electrons. Comes in many varieties and colors; most commonly, green.   
 
--Tube types: many US-made tubes follow a very simple naming scheme. For example, the 3BP1.
+Tube types: many US-made tubes follow a very simple naming scheme. For example, the 3BP1.  
 
--3 -> 3" display
--B -> tube series (successor to 3AP1)
--P1 -> P1 phosphor designation, being a green medium persistence type. 
+3 -> 3" display  
+B -> tube series (successor to 3AP1)  
+P1 -> P1 phosphor designation, being a green medium persistence type.  
 
 ## Current files:
 High Voltage supplies:
