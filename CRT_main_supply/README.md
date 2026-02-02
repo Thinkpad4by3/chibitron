@@ -1,4 +1,4 @@
-## CRT HV Supply Gen1
+## CRT HV Supply Gen.1 V1
 
 ## Status
 - Completed, succeeded by CRT_main_supply_2
@@ -20,14 +20,14 @@ Main problem with bring-up on this was down to the LM5180's undiagnosed requirem
 
 Other major issue was that the Filament was tied to the -1500V rail instead of floating off the cathode. For the purposes of most tubes, this is not a problem. Most CRTs have a H-H-K arrangement, which means the cathode is indirectly heated, and can generally float within +/- 125V of the cathode. G1-cutoff should be no more than 100V from the cathode, so this is generally fine. However, on some tubes, they are tied H-HK where either the tube is directly heated and the cathode is the heater, or the tube has the two connections internally tied to save pin-count. Either way, given the goal of maximum compatibility, mandating a tied HK was necessary.
 
-Supply was able to light up a 3BP1, at this point I did not have many tubes to test with and this was the only tube I felt safe to test with. It did provide a good picture, albeit a bit fuzzy. Some of this was due to unfiltered switching noise from the HV supplies. At this point, it just lit up with a dot since deflection_amp has not been brought up yet. It was however, good enough to get through deflection_amp developed, and therefore served its purpose.
+Supply was able to light up a 3BP1, at this point I did not have many tubes to test with and this was the only tube I felt safe to test with. It did provide a decent picture, albeit a bit fuzzy. Some of this was due to unfiltered switching noise from the HV supplies. At this point, it just lit up with a dot since deflection_amp has not been brought up yet. It was however, good enough to get through deflection_amp developed, and therefore served its purpose.
 
 ## Learnings
-LM5180 has some issues, regulation isn't wonderful and didn't like starting up the main filament supplies.
+LM5180 has some issues, regulation isn't wonderful and didn't like starting up the main filament supplies. Filament took nearly 6 seconds to get to full voltage, and another 10 seconds for the tube to start conducting. 
 
 Ground reference can be set to GND -> A2 is optimal.
 
-H-HK required.
+H-HK filament biasing required.
 
 
 
