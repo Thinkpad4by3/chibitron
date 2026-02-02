@@ -1,0 +1,288 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4f790ab3-39c4-4440-8cd4-f2c3652c7f34")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 66.04 72.39)
+		(end 102.87 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 01334e68-fcf6-4e0f-89d9-5f6b8000c693)
+	)
+	(rectangle
+		(start 133.35 68.58)
+		(end 154.94 91.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 68a24a35-3320-4e19-81e3-a1302b77dae8)
+	)
+	(rectangle
+		(start 189.23 68.58)
+		(end 218.44 91.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6aff84a1-a822-4fff-abf8-1cd7945bca28)
+	)
+	(rectangle
+		(start 83.82 41.91)
+		(end 106.68 55.88)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7174bd3f-3ef0-4b96-8549-1324d68f0860)
+	)
+	(rectangle
+		(start 62.23 105.41)
+		(end 91.44 120.65)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a44ac2b4-3b09-448a-b442-efd0a7dc94a0)
+	)
+	(rectangle
+		(start 158.75 68.58)
+		(end 182.88 91.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b7bc3edd-5c87-4c7c-9221-aa36107d00a6)
+	)
+	(rectangle
+		(start 101.6 105.41)
+		(end 125.73 120.65)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bfd1b659-8457-403a-8c57-cc0c9583b6a3)
+	)
+	(text "GRID BIAS"
+		(exclude_from_sim no)
+		(at 95.758 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "057b3b1c-7ffa-4cb4-b5ff-e20964d1a961")
+	)
+	(text "CARRIER\nGEN"
+		(exclude_from_sim no)
+		(at 84.328 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "329065d9-4fbf-4e45-9987-053a53d289b3")
+	)
+	(text "VIDEO AMP"
+		(exclude_from_sim no)
+		(at 113.284 113.284 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ad4993f-b1ef-4e28-8422-8c6699dbd3ad")
+	)
+	(text "DC RESTORE"
+		(exclude_from_sim no)
+		(at 203.962 80.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "acfe939f-abcf-4006-89c1-97e2f24e62ae")
+	)
+	(text "BRIGHTNESS\n&\nCONTRAST"
+		(exclude_from_sim no)
+		(at 76.962 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec771ae6-acaa-4dab-b811-67828678e486")
+	)
+	(text "LEVEL\nSHIFT"
+		(exclude_from_sim no)
+		(at 171.196 81.026 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5347c74-64f5-4ef7-a62c-0058dfacd8fc")
+	)
+	(text "DC BIAS"
+		(exclude_from_sim no)
+		(at 144.018 81.026 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fb00c5f8-7417-4cc0-8045-93fb09bc95b1")
+	)
+	(polyline
+		(pts
+			(xy 144.78 66.04) (xy 144.78 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066a669a-c04f-403a-b22b-9d705cb2b378")
+	)
+	(polyline
+		(pts
+			(xy 109.22 46.99) (xy 144.78 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46c808e5-d50b-4423-abc9-76c13639a24c")
+	)
+	(polyline
+		(pts
+			(xy 128.27 111.76) (xy 144.78 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af6e86c-f96a-4360-8d06-0a795bd111a8")
+	)
+	(polyline
+		(pts
+			(xy 144.78 93.98) (xy 144.78 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd2f2c0-f3f7-4a7d-98d9-588346169ee4")
+	)
+	(polyline
+		(pts
+			(xy 106.68 81.28) (xy 130.81 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ae5bd4-51c2-4d69-b370-a297d8291dfd")
+	)
+	(polyline
+		(pts
+			(xy 93.98 113.03) (xy 99.06 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f1f033-e2c3-45af-93db-8b65a91c516f")
+	)
+	(hierarchical_label "+150V"
+		(shape input)
+		(at 62.23 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "018ca6e0-daaf-45b1-ac3e-7f637ea14e66")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 62.23 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19c8f6bb-b42e-4c8e-b9cc-4c553af07196")
+	)
+	(hierarchical_label "VIDEO"
+		(shape input)
+		(at 58.42 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65d6dfdd-b276-4e77-a525-793870e2eda8")
+	)
+	(hierarchical_label "CATHODE"
+		(shape input)
+		(at 226.06 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6689fe41-1a7a-4b5e-a285-630ad3d6de69")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 62.23 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "abe72d10-06a8-4f30-8cae-1a69abccc590")
+	)
+	(hierarchical_label "GRID"
+		(shape input)
+		(at 226.06 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2352ef7-2c25-4420-a092-c47c1d55cab5")
+	)
+)

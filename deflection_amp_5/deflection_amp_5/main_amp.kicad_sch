@@ -1,0 +1,7391 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7ac7b728-ac72-4f56-92eb-fc6ce6055bb4")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Amplifier_Operational:LMH6611"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LMH6611"
+				(at 2.54 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmh6612.pdf"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Supply, 345 MHz, Rail-to-Rail Output, Amplifier, TSOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "opamp operational amplifier single"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSOT*23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LMH6611_0_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LMH6611_1_1"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "~{DISABLE}"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:BC817"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC817"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC817_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC817_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:BC857"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC857"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1A Ic, 45V Vce, PNP Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "PNP transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC857_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BC857_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "2.02k exact"
+		(exclude_from_sim no)
+		(at 49.276 93.726 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "302c6cb9-2387-4041-abae-4bb71c7f808a")
+	)
+	(text "add more decoupling caps as necessary"
+		(exclude_from_sim no)
+		(at 83.312 51.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ad50568-4654-4bd7-8155-736ed6360c90")
+	)
+	(text "OPT: MMBT44A/94A"
+		(exclude_from_sim no)
+		(at 152.4 51.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ef8068b-a7be-4d36-9731-0d7ed9f9143b")
+	)
+	(junction
+		(at 116.84 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03402180-3d52-4ae5-82eb-78e68bde2ce2")
+	)
+	(junction
+		(at 55.88 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03fed81e-061e-4e68-a4dc-8c064cde49d7")
+	)
+	(junction
+		(at 251.46 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04a58be2-7148-4279-abc9-6f5bfb9eb2cc")
+	)
+	(junction
+		(at 134.62 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07e70302-ec2f-4ebd-bb54-e849c7aad59f")
+	)
+	(junction
+		(at 208.28 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ad8e02e-af05-44c0-a450-0e653e251a2b")
+	)
+	(junction
+		(at 116.84 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b563649-9beb-4e8d-bbdf-f76f177ed982")
+	)
+	(junction
+		(at 181.61 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13fc5648-d244-4f7a-9484-ada666071418")
+	)
+	(junction
+		(at 181.61 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17fb7d3b-d896-4107-862f-89091ec171e8")
+	)
+	(junction
+		(at 181.61 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ce7d2ab-4148-4fd6-9b98-b709861ef886")
+	)
+	(junction
+		(at 190.5 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3190dc39-c4a7-47d2-931d-f21aecab88e9")
+	)
+	(junction
+		(at 242.57 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31add621-1565-44d7-bd13-38f96fe7c980")
+	)
+	(junction
+		(at 125.73 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32202a05-20d2-4758-93c1-6e7286abb49b")
+	)
+	(junction
+		(at 107.95 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33340311-ba7b-42f8-85ed-8420e6ef2d4b")
+	)
+	(junction
+		(at 64.77 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "380e1065-dd09-4d24-ac6d-9992f62bd0fa")
+	)
+	(junction
+		(at 199.39 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d973ef3-0b4b-43de-b0e1-e39d44314944")
+	)
+	(junction
+		(at 251.46 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f5a350c-a38b-41bf-b55f-05337c24a2dc")
+	)
+	(junction
+		(at 172.72 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41f49d56-cebb-4988-93f8-8ef38af285fb")
+	)
+	(junction
+		(at 251.46 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53ab0ded-f6b1-4a04-98f4-2878f6f375dd")
+	)
+	(junction
+		(at 172.72 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6033d198-305c-4417-977b-8673b2325679")
+	)
+	(junction
+		(at 99.06 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a8715a2-110c-40b7-9281-b8cda748ef4a")
+	)
+	(junction
+		(at 199.39 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "768a5827-16da-44a0-bd83-c716a4f0bccd")
+	)
+	(junction
+		(at 55.88 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "778a50b1-7124-40cd-a7a6-68e6cf4c08bd")
+	)
+	(junction
+		(at 208.28 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86769b13-4a24-4b86-b008-93d88362ba83")
+	)
+	(junction
+		(at 58.42 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94a0fc6e-572d-47b3-a66a-3db451d64afc")
+	)
+	(junction
+		(at 125.73 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "997cd1ff-036a-4e58-bd8a-e21997596672")
+	)
+	(junction
+		(at 181.61 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f2bf6ff-27d6-4b84-b176-695dc952bb54")
+	)
+	(junction
+		(at 125.73 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a41a1b4d-56a0-4b11-a194-9e86c493c70e")
+	)
+	(junction
+		(at 116.84 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa736b12-70e1-4ec5-82ce-07163c569007")
+	)
+	(junction
+		(at 208.28 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4c8ee0e-94d9-43f5-96ba-6e5312118cc2")
+	)
+	(junction
+		(at 91.44 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5fcbd7b-687c-4f0c-9331-257fcd7144b1")
+	)
+	(junction
+		(at 99.06 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba6d0485-3c5f-4883-9aea-84bc509b3183")
+	)
+	(junction
+		(at 125.73 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c793eb33-567d-4a4c-91fa-c92cf9e988ce")
+	)
+	(junction
+		(at 215.9 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0aa8e70-8c0d-430a-b114-a78a0f9cd060")
+	)
+	(junction
+		(at 55.88 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3207802-2322-4e21-b4f6-c88675b05c2b")
+	)
+	(junction
+		(at 99.06 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7ce6470-4a9a-462e-9aa4-ef669a5ac1fe")
+	)
+	(junction
+		(at 107.95 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df6f4549-a18c-4666-b522-b8d3ac868b6b")
+	)
+	(junction
+		(at 134.62 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8d7f587-4aa6-4d3b-8d55-dedf38669e87")
+	)
+	(junction
+		(at 190.5 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eed4cf0d-e4a8-4edc-be7e-576939e616eb")
+	)
+	(junction
+		(at 190.5 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f467ecef-567d-42a9-b362-41534b57f16d")
+	)
+	(wire
+		(pts
+			(xy 134.62 93.98) (xy 139.7 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d49654-1628-4458-8ff1-801c66129a54")
+	)
+	(wire
+		(pts
+			(xy 172.72 62.23) (xy 172.72 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0410bb76-f1d6-4771-bd27-26edfa885018")
+	)
+	(wire
+		(pts
+			(xy 76.2 86.36) (xy 76.2 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046295f3-0dbb-463c-8e1e-682d4d357c46")
+	)
+	(wire
+		(pts
+			(xy 116.84 93.98) (xy 120.65 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064d1212-970e-4180-a18e-6fed5f9f0471")
+	)
+	(wire
+		(pts
+			(xy 91.44 93.98) (xy 99.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c92c18-efd0-4967-892e-a32b864fd7ad")
+	)
+	(wire
+		(pts
+			(xy 55.88 96.52) (xy 64.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092a028d-c5ef-4d6b-8a47-1f247eb6dba7")
+	)
+	(wire
+		(pts
+			(xy 199.39 113.03) (xy 199.39 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6d1ac6-c24d-4c36-a21a-1312606b5dc3")
+	)
+	(wire
+		(pts
+			(xy 116.84 130.81) (xy 116.84 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b19acf8-c200-496e-ac86-5b8378087a94")
+	)
+	(wire
+		(pts
+			(xy 99.06 74.93) (xy 107.95 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c18ea30-3629-44f2-9430-01ca17e5adb6")
+	)
+	(wire
+		(pts
+			(xy 190.5 92.71) (xy 190.5 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c6be8e0-0ea5-4737-a8de-54b451de7d82")
+	)
+	(wire
+		(pts
+			(xy 190.5 124.46) (xy 190.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1da48d-7fb8-4a0c-b490-a4f2ad352190")
+	)
+	(wire
+		(pts
+			(xy 208.28 113.03) (xy 208.28 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e086134-bef7-4bca-836f-26360b070c7e")
+	)
+	(wire
+		(pts
+			(xy 200.66 106.68) (xy 199.39 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5efe38-1e3b-4671-9eec-5e87526f2e7e")
+	)
+	(wire
+		(pts
+			(xy 231.14 86.36) (xy 231.14 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f1e1f91-52d7-4b59-ad32-5e2da2ca1d22")
+	)
+	(wire
+		(pts
+			(xy 228.6 101.6) (xy 228.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1155342f-267b-44c3-ba7d-94265559cbe4")
+	)
+	(wire
+		(pts
+			(xy 55.88 96.52) (xy 55.88 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f299d8-8bca-4670-b215-3fdacf853e38")
+	)
+	(wire
+		(pts
+			(xy 232.41 104.14) (xy 231.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "164af536-223e-4c68-91ae-c6a179114014")
+	)
+	(wire
+		(pts
+			(xy 232.41 72.39) (xy 231.14 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1699d2ad-94c3-4daa-8030-1647e61e2e1d")
+	)
+	(wire
+		(pts
+			(xy 181.61 68.58) (xy 180.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "175dc83c-6b42-44b3-b135-a0b978ceccd9")
+	)
+	(wire
+		(pts
+			(xy 172.72 93.98) (xy 172.72 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17678733-0425-47d3-9769-8f55a43622bb")
+	)
+	(wire
+		(pts
+			(xy 255.27 116.84) (xy 251.46 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d1360e-e7fb-4069-8f3f-497e441b2db1")
+	)
+	(wire
+		(pts
+			(xy 78.74 101.6) (xy 78.74 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "186c82d7-cbd8-4139-86b6-de531d911624")
+	)
+	(wire
+		(pts
+			(xy 251.46 138.43) (xy 156.21 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19865c13-eea3-46dd-8a25-975de214974e")
+	)
+	(wire
+		(pts
+			(xy 125.73 119.38) (xy 125.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199b8585-19f7-4e0d-bb26-12b5c64c40d5")
+	)
+	(wire
+		(pts
+			(xy 76.2 101.6) (xy 76.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae6fadd-2c8d-428d-b158-3d7708bb013a")
+	)
+	(wire
+		(pts
+			(xy 124.46 68.58) (xy 125.73 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae91082-5d34-4c02-8aed-e937c84c33cc")
+	)
+	(wire
+		(pts
+			(xy 116.84 100.33) (xy 116.84 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba11513-a995-4c41-9f5d-2ff56be78bb3")
+	)
+	(wire
+		(pts
+			(xy 107.95 81.28) (xy 109.22 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c339262-2e49-4d13-8b29-fe152591e282")
+	)
+	(wire
+		(pts
+			(xy 242.57 96.52) (xy 236.22 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfb3a77-fe25-4f31-a8a3-c09a0016b9b8")
+	)
+	(wire
+		(pts
+			(xy 200.66 81.28) (xy 199.39 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e96d352-4257-4a06-9c9a-1f25a06c48e3")
+	)
+	(wire
+		(pts
+			(xy 251.46 115.57) (xy 251.46 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f4e59a6-fbd0-4ef5-8422-590a8819410e")
+	)
+	(wire
+		(pts
+			(xy 99.06 74.93) (xy 99.06 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24270ee0-8e67-4061-aa1a-c98156ad3350")
+	)
+	(wire
+		(pts
+			(xy 232.41 106.68) (xy 228.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a50b17-4f68-4b42-938d-ba64a8f67aed")
+	)
+	(wire
+		(pts
+			(xy 125.73 119.38) (xy 127 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2711b11d-d9d8-4711-92f1-fee322ecdc98")
+	)
+	(wire
+		(pts
+			(xy 125.73 74.93) (xy 125.73 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "272c6e4d-b362-4119-8707-587c27860d26")
+	)
+	(wire
+		(pts
+			(xy 107.95 113.03) (xy 107.95 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b06c7b-b595-42e4-bd01-f381d7564f07")
+	)
+	(wire
+		(pts
+			(xy 181.61 119.38) (xy 181.61 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28cffaab-0a15-4987-99f5-724fe6f598a8")
+	)
+	(wire
+		(pts
+			(xy 58.42 40.64) (xy 266.7 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28f40427-c085-42bf-9177-4fc6da2073d4")
+	)
+	(wire
+		(pts
+			(xy 64.77 96.52) (xy 71.12 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7436df-f79a-40b6-a0ac-50aa4c0a924c")
+	)
+	(wire
+		(pts
+			(xy 181.61 132.08) (xy 181.61 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc22861-8b67-46e6-93b6-098ee2c19f49")
+	)
+	(wire
+		(pts
+			(xy 99.06 93.98) (xy 99.06 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e910944-c1ce-4288-9682-adf5185824b5")
+	)
+	(wire
+		(pts
+			(xy 86.36 93.98) (xy 91.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3296007f-1f39-40d7-8c45-7cec31b30162")
+	)
+	(wire
+		(pts
+			(xy 134.62 130.81) (xy 134.62 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33584a19-082c-4a6b-b78d-45a563519540")
+	)
+	(wire
+		(pts
+			(xy 99.06 86.36) (xy 99.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3391ff61-5e21-4d13-8b97-73a482bc2eea")
+	)
+	(wire
+		(pts
+			(xy 209.55 121.92) (xy 208.28 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37c14ab7-72ce-414e-bdbc-afe20c4db49c")
+	)
+	(wire
+		(pts
+			(xy 190.5 100.33) (xy 190.5 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38fe6c45-46ac-48e8-a3c6-6d150e4798a7")
+	)
+	(wire
+		(pts
+			(xy 52.07 116.84) (xy 55.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "394af334-4c21-47d7-8295-c6e77355bcd1")
+	)
+	(wire
+		(pts
+			(xy 151.13 138.43) (xy 151.13 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1adef6-6415-4b9c-b726-affab5b6888b")
+	)
+	(wire
+		(pts
+			(xy 190.5 62.23) (xy 190.5 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a91b6a7-2bb5-40c7-9390-9e3fb297e28e")
+	)
+	(wire
+		(pts
+			(xy 74.93 106.68) (xy 78.74 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b390948-4b2c-42c2-88a3-90278b78b5dc")
+	)
+	(wire
+		(pts
+			(xy 55.88 115.57) (xy 55.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d788b25-f579-42e1-94f4-086cb132fc99")
+	)
+	(wire
+		(pts
+			(xy 208.28 73.66) (xy 208.28 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fbcd3b0-1882-4757-a452-5ce792e350d6")
+	)
+	(wire
+		(pts
+			(xy 190.5 74.93) (xy 181.61 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41001bd4-d48e-467b-88fe-0cd4e440e24c")
+	)
+	(wire
+		(pts
+			(xy 123.19 135.89) (xy 125.73 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424acac0-bff8-42c4-adbb-f671cbfad999")
+	)
+	(wire
+		(pts
+			(xy 54.61 96.52) (xy 55.88 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44aafa64-89bd-4ad4-8dcc-ebbe08e3ef93")
+	)
+	(wire
+		(pts
+			(xy 199.39 81.28) (xy 199.39 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ba8a69-601c-486f-8f1c-2e3e112310ed")
+	)
+	(wire
+		(pts
+			(xy 134.62 93.98) (xy 134.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4637762e-037c-48ea-adea-482ab6ff3fd1")
+	)
+	(wire
+		(pts
+			(xy 172.72 73.66) (xy 172.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481177f9-5cfc-41aa-8b35-582372f39297")
+	)
+	(wire
+		(pts
+			(xy 231.14 73.66) (xy 231.14 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a313a1-66f3-494d-9c47-87da86c0fbf2")
+	)
+	(wire
+		(pts
+			(xy 184.15 52.07) (xy 181.61 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4912f38a-4ea0-495d-b85a-61adbb55ab67")
+	)
+	(wire
+		(pts
+			(xy 181.61 74.93) (xy 181.61 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ada8068-2728-4a41-9680-cafde551facd")
+	)
+	(wire
+		(pts
+			(xy 74.93 104.14) (xy 76.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e787139-c433-4dcd-a413-4dc46519405e")
+	)
+	(wire
+		(pts
+			(xy 172.72 106.68) (xy 172.72 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537604fe-98f2-4616-bbf1-f6ec1095d00d")
+	)
+	(wire
+		(pts
+			(xy 208.28 86.36) (xy 208.28 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5828c728-f59b-4796-99eb-06c32085b910")
+	)
+	(wire
+		(pts
+			(xy 76.2 83.82) (xy 74.93 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "590eeda4-08ba-4520-b1f7-b8706131b296")
+	)
+	(wire
+		(pts
+			(xy 181.61 55.88) (xy 181.61 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59d185b1-5749-4af5-b632-43fca2552feb")
+	)
+	(wire
+		(pts
+			(xy 125.73 68.58) (xy 127 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1e7261-eec7-499a-a17b-338ed66cd9fa")
+	)
+	(wire
+		(pts
+			(xy 97.79 121.92) (xy 99.06 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c81e292-e3d7-42c8-b7fc-1938429a4a79")
+	)
+	(wire
+		(pts
+			(xy 116.84 74.93) (xy 116.84 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d80de2b-0653-4660-99ff-ed53373c9acf")
+	)
+	(wire
+		(pts
+			(xy 208.28 113.03) (xy 199.39 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e7a7aa0-d9ec-470a-82b8-73aeb911b604")
+	)
+	(wire
+		(pts
+			(xy 124.46 119.38) (xy 125.73 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2d0438-5574-4c74-a530-7395d90277ff")
+	)
+	(wire
+		(pts
+			(xy 232.41 80.01) (xy 231.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f57808c-414f-4a59-b3a6-2b4ac34bb247")
+	)
+	(wire
+		(pts
+			(xy 123.19 52.07) (xy 125.73 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6046651e-f984-4a62-8b12-fa2befc1d221")
+	)
+	(wire
+		(pts
+			(xy 151.13 106.68) (xy 134.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60ae8ed2-e3df-447f-a335-584568547d15")
+	)
+	(wire
+		(pts
+			(xy 52.07 110.49) (xy 52.07 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "623bc12f-f2fc-4872-bbba-1615acacd402")
+	)
+	(wire
+		(pts
+			(xy 215.9 93.98) (xy 208.28 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c8a5aa-031a-4b59-af26-5d28c64cfc25")
+	)
+	(wire
+		(pts
+			(xy 106.68 106.68) (xy 107.95 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65c383ae-c1c8-43ba-a4f9-01b7e8600917")
+	)
+	(wire
+		(pts
+			(xy 99.06 113.03) (xy 99.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f5a581-59d8-4630-905b-e0d658d9b31b")
+	)
+	(wire
+		(pts
+			(xy 116.84 124.46) (xy 116.84 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ff9a28-fbcb-4f21-8ed5-a60417ee7a0d")
+	)
+	(wire
+		(pts
+			(xy 91.44 93.98) (xy 91.44 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677c41ce-da6b-417a-9c78-56a2142c4764")
+	)
+	(wire
+		(pts
+			(xy 208.28 93.98) (xy 208.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ed1578-61c3-4cad-93cd-cec323c77d00")
+	)
+	(wire
+		(pts
+			(xy 134.62 124.46) (xy 134.62 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68247fa8-470e-4862-af44-847e434746a0")
+	)
+	(wire
+		(pts
+			(xy 190.5 93.98) (xy 186.69 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a15a79-11cd-4d7e-9a4b-fa141de1587b")
+	)
+	(wire
+		(pts
+			(xy 74.93 80.01) (xy 76.2 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68ee8446-a8a3-4922-8392-d7aed3e014d9")
+	)
+	(wire
+		(pts
+			(xy 40.64 96.52) (xy 43.18 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b57f50f-bcbd-4571-ad6f-e6b03a115587")
+	)
+	(wire
+		(pts
+			(xy 190.5 111.76) (xy 190.5 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c18fae0-a81e-4ba9-9a0f-7a9baaa29dc0")
+	)
+	(wire
+		(pts
+			(xy 208.28 111.76) (xy 208.28 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7001e4d6-f71b-4db3-abb0-abd6ac720b88")
+	)
+	(wire
+		(pts
+			(xy 134.62 62.23) (xy 134.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7050af59-78b7-475e-98da-73e327f1f3a9")
+	)
+	(wire
+		(pts
+			(xy 255.27 109.22) (xy 251.46 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a45c6a-b3a2-4f69-b31e-b4ab09e1e3be")
+	)
+	(wire
+		(pts
+			(xy 55.88 116.84) (xy 55.88 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7122fe10-ef0c-42bb-80fb-29384d87f043")
+	)
+	(wire
+		(pts
+			(xy 172.72 130.81) (xy 172.72 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e6bc46-1dff-4e9f-a774-5a61049ed081")
+	)
+	(wire
+		(pts
+			(xy 81.28 111.76) (xy 91.44 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c8f697-89fc-47c7-8f32-17fcacae2065")
+	)
+	(wire
+		(pts
+			(xy 99.06 66.04) (xy 97.79 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76027b12-9497-4627-bae5-7a3b3ae6b417")
+	)
+	(wire
+		(pts
+			(xy 74.93 72.39) (xy 76.2 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "771f0bae-7007-4a85-b1c1-98148b8839be")
+	)
+	(wire
+		(pts
+			(xy 231.14 78.74) (xy 231.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7980bd9c-19e5-4890-85d2-2fa441d7d3b0")
+	)
+	(wire
+		(pts
+			(xy 181.61 55.88) (xy 172.72 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d3c0b7-d8ef-47b3-a567-89addd4ed8c0")
+	)
+	(wire
+		(pts
+			(xy 55.88 138.43) (xy 151.13 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e25cc0-5c11-41ec-a9c2-ba6c3b81c5df")
+	)
+	(wire
+		(pts
+			(xy 266.7 40.64) (xy 266.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a3f175e-51cb-4a13-bfbc-8e79ea052cec")
+	)
+	(wire
+		(pts
+			(xy 116.84 62.23) (xy 116.84 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813fb3b1-237c-41ac-8319-48fa0a00dc71")
+	)
+	(wire
+		(pts
+			(xy 190.5 113.03) (xy 190.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d60f2d-451d-4f41-b987-42b508b6f00e")
+	)
+	(wire
+		(pts
+			(xy 99.06 111.76) (xy 99.06 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "834ff9d5-6fc7-4fc3-ab84-e79ad5a982bb")
+	)
+	(wire
+		(pts
+			(xy 134.62 132.08) (xy 125.73 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "839a9d21-71ab-489d-ab64-a3bb57bf18ad")
+	)
+	(wire
+		(pts
+			(xy 226.06 111.76) (xy 215.9 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d2079f-3de5-4dc8-89c2-c5e7716aa9a1")
+	)
+	(wire
+		(pts
+			(xy 116.84 86.36) (xy 116.84 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ef71da-3f62-4451-8c0d-0850b1261b65")
+	)
+	(wire
+		(pts
+			(xy 208.28 74.93) (xy 199.39 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d88564-9ae3-4249-8276-f0cdb789edde")
+	)
+	(wire
+		(pts
+			(xy 256.54 96.52) (xy 251.46 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88cffa37-37e1-43d1-aec6-64fcee9a2f29")
+	)
+	(wire
+		(pts
+			(xy 134.62 106.68) (xy 134.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a1e8f08-4443-47b2-8070-20ed38808eb5")
+	)
+	(wire
+		(pts
+			(xy 208.28 74.93) (xy 208.28 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d9f7729-0f50-4183-9094-26f434119d89")
+	)
+	(wire
+		(pts
+			(xy 116.84 57.15) (xy 116.84 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e268937-d816-4888-a9f3-b795be3629bf")
+	)
+	(wire
+		(pts
+			(xy 231.14 101.6) (xy 231.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f2588e9-26eb-48fa-bfef-db35b8f44ee4")
+	)
+	(wire
+		(pts
+			(xy 64.77 111.76) (xy 64.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9085690e-88d8-4aa0-abc8-6000e9e01042")
+	)
+	(wire
+		(pts
+			(xy 190.5 93.98) (xy 190.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c25973-f355-4754-a7c5-b1fbaae11c54")
+	)
+	(wire
+		(pts
+			(xy 99.06 68.58) (xy 99.06 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "958e2ac7-cd96-4e68-9cdf-a6027dfa0a35")
+	)
+	(wire
+		(pts
+			(xy 251.46 109.22) (xy 251.46 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987c37b3-89fe-4e15-9c76-9a09a3425503")
+	)
+	(wire
+		(pts
+			(xy 116.84 74.93) (xy 125.73 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c1623eb-6eb0-46c1-bb90-7d5111d194df")
+	)
+	(wire
+		(pts
+			(xy 172.72 55.88) (xy 172.72 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc54ae8-ccc5-4463-abbe-295e63e2cf1c")
+	)
+	(wire
+		(pts
+			(xy 208.28 119.38) (xy 208.28 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28a9552-37d5-444d-944d-af18ea1e0342")
+	)
+	(wire
+		(pts
+			(xy 116.84 55.88) (xy 125.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a315f4b7-c8c1-4367-9110-ba44a53976f0")
+	)
+	(wire
+		(pts
+			(xy 58.42 40.64) (xy 48.26 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40453a4-9aa1-4069-aef1-fe64507776d7")
+	)
+	(wire
+		(pts
+			(xy 266.7 96.52) (xy 261.62 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a53d9abc-eb73-4ad2-a059-473d451f9d93")
+	)
+	(wire
+		(pts
+			(xy 58.42 91.44) (xy 58.42 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5db005c-6394-4fb3-95ff-f69bdb2982b0")
+	)
+	(wire
+		(pts
+			(xy 107.95 106.68) (xy 109.22 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5fe25ef-3237-40fe-852e-b96f84b5dd9f")
+	)
+	(wire
+		(pts
+			(xy 134.62 73.66) (xy 134.62 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a705f701-ddf1-4896-9402-3862d7de80cc")
+	)
+	(wire
+		(pts
+			(xy 231.14 83.82) (xy 232.41 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a740ec1b-b207-4e55-b944-b3c0a0bf87e5")
+	)
+	(wire
+		(pts
+			(xy 48.26 96.52) (xy 49.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7fa707e-b361-44b7-a862-d3c3d890e054")
+	)
+	(wire
+		(pts
+			(xy 99.06 73.66) (xy 99.06 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d31ee0-b60a-4508-93a5-74561ef44a77")
+	)
+	(wire
+		(pts
+			(xy 125.73 132.08) (xy 125.73 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf37ae8-6ee8-43e7-9ae9-73f8561c9276")
+	)
+	(wire
+		(pts
+			(xy 52.07 115.57) (xy 52.07 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc3acac-3d5d-4dfc-b4e6-f1c1938d45b0")
+	)
+	(wire
+		(pts
+			(xy 220.98 93.98) (xy 215.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b17884-161a-4d62-ad53-0594bc229632")
+	)
+	(wire
+		(pts
+			(xy 190.5 57.15) (xy 190.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e93f1c-ee44-4f44-9f0f-28b5ea0de9cb")
+	)
+	(wire
+		(pts
+			(xy 134.62 55.88) (xy 134.62 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c4e79c-9070-494d-9f73-a29a56965791")
+	)
+	(wire
+		(pts
+			(xy 125.73 132.08) (xy 116.84 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5beee73-925d-4422-9152-0a8403478b6a")
+	)
+	(wire
+		(pts
+			(xy 242.57 111.76) (xy 242.57 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d5786b-7b59-4d97-8f79-60e06e8f8686")
+	)
+	(wire
+		(pts
+			(xy 182.88 68.58) (xy 181.61 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba84cc80-f6b3-4a7b-adbf-3547fb832bf9")
+	)
+	(wire
+		(pts
+			(xy 106.68 81.28) (xy 107.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcd1c1a4-c15d-464f-9b10-54b4978caaa7")
+	)
+	(wire
+		(pts
+			(xy 76.2 111.76) (xy 64.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcff111e-7fb8-4362-82fb-421cae8d9b2b")
+	)
+	(wire
+		(pts
+			(xy 181.61 132.08) (xy 190.5 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd60562d-3814-4563-8a07-e8f30031a799")
+	)
+	(wire
+		(pts
+			(xy 172.72 124.46) (xy 172.72 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0bfec13-f5b3-4257-a221-b40721561338")
+	)
+	(wire
+		(pts
+			(xy 184.15 135.89) (xy 181.61 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1720950-ad81-4f1c-84ad-b15d4eb8a45a")
+	)
+	(wire
+		(pts
+			(xy 190.5 74.93) (xy 190.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4836a0f-4fec-4d5b-b50f-ab29b8fddb1c")
+	)
+	(wire
+		(pts
+			(xy 172.72 132.08) (xy 181.61 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f4d1e0-76c1-4ab5-b048-e7ba55ee18ef")
+	)
+	(wire
+		(pts
+			(xy 116.84 92.71) (xy 116.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5623ad4-68b5-405b-ac7c-4e80b4871d23")
+	)
+	(wire
+		(pts
+			(xy 116.84 73.66) (xy 116.84 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9373373-92d6-4752-af01-e34180499838")
+	)
+	(wire
+		(pts
+			(xy 52.07 109.22) (xy 55.88 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb916e21-1c5e-4391-b7ba-7900153e5ec8")
+	)
+	(wire
+		(pts
+			(xy 190.5 113.03) (xy 181.61 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cccfe057-a527-45d9-aea4-6bc40add7052")
+	)
+	(wire
+		(pts
+			(xy 255.27 115.57) (xy 255.27 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd2ce8d3-068e-413e-a757-71c8801258a6")
+	)
+	(wire
+		(pts
+			(xy 215.9 93.98) (xy 215.9 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce97a145-723d-4e53-9d5e-b7151448adf5")
+	)
+	(wire
+		(pts
+			(xy 199.39 81.28) (xy 198.12 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf24c5c6-4318-4650-9f60-2acd578a61de")
+	)
+	(wire
+		(pts
+			(xy 208.28 68.58) (xy 208.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d20ed57a-c2b7-48e2-9db3-2c0fe88e0fff")
+	)
+	(wire
+		(pts
+			(xy 116.84 113.03) (xy 125.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44f63c5-7aba-44af-a0b8-cfc2f98e5818")
+	)
+	(wire
+		(pts
+			(xy 125.73 55.88) (xy 134.62 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d48b0379-fc32-44dc-b3fc-dbc4a4d4f773")
+	)
+	(wire
+		(pts
+			(xy 199.39 106.68) (xy 198.12 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d520ad12-6834-4e0c-8ef6-a9a556fc5aa8")
+	)
+	(wire
+		(pts
+			(xy 125.73 55.88) (xy 125.73 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66925c0-cc3b-4d29-bd7f-1ea4acde336a")
+	)
+	(wire
+		(pts
+			(xy 190.5 73.66) (xy 190.5 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d0add0-4da6-44e9-888b-0f276ea4381d")
+	)
+	(wire
+		(pts
+			(xy 99.06 113.03) (xy 107.95 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8362a05-6f97-4c23-84de-15985a47737b")
+	)
+	(wire
+		(pts
+			(xy 238.76 91.44) (xy 236.22 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9312460-b88a-4df7-ad3f-9094b391530e")
+	)
+	(wire
+		(pts
+			(xy 208.28 66.04) (xy 209.55 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f06e6d-99fa-4db5-b729-da354cb46030")
+	)
+	(wire
+		(pts
+			(xy 182.88 119.38) (xy 181.61 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dddd8d80-8706-4ed4-aed5-f6fbe36341f1")
+	)
+	(wire
+		(pts
+			(xy 116.84 113.03) (xy 116.84 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c3f219-8963-477b-8004-8268e005d24a")
+	)
+	(wire
+		(pts
+			(xy 190.5 86.36) (xy 190.5 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a89a5d-e2b3-4355-be1d-7ad0af36530d")
+	)
+	(wire
+		(pts
+			(xy 71.12 91.44) (xy 58.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4169f40-a1df-4cc6-b51e-8a37b9a507d9")
+	)
+	(wire
+		(pts
+			(xy 251.46 96.52) (xy 251.46 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e833faa0-aae5-4ea5-8515-6ecb613b6b71")
+	)
+	(wire
+		(pts
+			(xy 156.21 138.43) (xy 156.21 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8819954-5c2a-4f48-82a4-74e60c320ebb")
+	)
+	(wire
+		(pts
+			(xy 99.06 119.38) (xy 99.06 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e952fc87-b072-4801-936a-f7468dba8faa")
+	)
+	(wire
+		(pts
+			(xy 231.14 111.76) (xy 242.57 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98b514f-bf26-489f-8940-515a8ba68937")
+	)
+	(wire
+		(pts
+			(xy 107.95 81.28) (xy 107.95 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed0d51cc-f12e-46fc-b533-ea397f41970b")
+	)
+	(wire
+		(pts
+			(xy 116.84 93.98) (xy 116.84 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee99f690-eaa2-43f6-8adc-c1b275527161")
+	)
+	(wire
+		(pts
+			(xy 251.46 116.84) (xy 251.46 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec455cc-520f-4365-8aba-7d2c7d8ccaa5")
+	)
+	(wire
+		(pts
+			(xy 55.88 109.22) (xy 55.88 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc045c7-945d-4136-9893-76aaf03b8a4d")
+	)
+	(wire
+		(pts
+			(xy 181.61 119.38) (xy 180.34 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08c685d-5f21-45cb-b4fe-5bcdf74fdfca")
+	)
+	(wire
+		(pts
+			(xy 190.5 55.88) (xy 181.61 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f263ed23-2599-4532-b1f9-cd11df73a2e5")
+	)
+	(wire
+		(pts
+			(xy 116.84 111.76) (xy 116.84 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f38b28fc-d49c-4d14-8ed4-9d11bfcbf962")
+	)
+	(wire
+		(pts
+			(xy 255.27 110.49) (xy 255.27 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f43a6ba6-826a-44b0-b43c-73e50e4bf3f5")
+	)
+	(wire
+		(pts
+			(xy 172.72 93.98) (xy 167.64 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f581770f-6b15-4f8b-8873-df42880bb014")
+	)
+	(wire
+		(pts
+			(xy 251.46 96.52) (xy 242.57 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58db89e-1b1b-4f99-b91c-71655ca23b92")
+	)
+	(wire
+		(pts
+			(xy 76.2 73.66) (xy 76.2 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6baba74-cc7f-442d-ae4d-f38f08322553")
+	)
+	(wire
+		(pts
+			(xy 156.21 106.68) (xy 172.72 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b52aee-c6d0-4d26-9a62-f3c273ccce62")
+	)
+	(wire
+		(pts
+			(xy 190.5 130.81) (xy 190.5 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa72acc5-c5e4-4966-a94a-9e8fb4292215")
+	)
+	(wire
+		(pts
+			(xy 76.2 78.74) (xy 76.2 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3a72ee-82bc-4617-ab45-6acf5974d049")
+	)
+	(hierarchical_label "-150V"
+		(shape input)
+		(at 123.19 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03154a57-4ee7-4329-b70f-d07d6f8019f6")
+	)
+	(hierarchical_label "+150V"
+		(shape input)
+		(at 123.19 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b03ed49-98ff-4e8d-ba90-ac63b037333f")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 232.41 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13c436d6-9feb-46bc-93ac-dd63c8ad4d7d")
+	)
+	(hierarchical_label "-3.3V"
+		(shape input)
+		(at 232.41 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f55a51c-3c90-41c2-8ad4-7616c0b723cb")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 120.65 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2555eb3d-b521-48f6-805d-2b78d0b3ef4d")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 232.41 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2dd22027-63b9-476f-8e64-cb4990767fd6")
+	)
+	(hierarchical_label "PLATE-"
+		(shape input)
+		(at 167.64 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "367dc245-d20a-45f6-aca1-6b7566af4cde")
+	)
+	(hierarchical_label "-3.3V"
+		(shape input)
+		(at 74.93 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "464a6fc5-9914-4bfe-bffd-ae21ebec891a")
+	)
+	(hierarchical_label "-3.3V"
+		(shape input)
+		(at 209.55 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c5c85b0-d517-4287-ad09-d66ad9d96b46")
+	)
+	(hierarchical_label "INPUT"
+		(shape input)
+		(at 48.26 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f97f6ae-5670-4fa4-a0e0-2c86a569e2c3")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 186.69 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "538638c4-19cf-46ee-bd43-2c2581466b34")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 74.93 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58931717-b139-4722-9e50-b805a62c54ac")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 209.55 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84e27064-e6ad-4608-8d4c-8ce9bcef282d")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 97.79 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f4ebf1f-7fb8-4628-8659-a1e89beb06d4")
+	)
+	(hierarchical_label "+150V"
+		(shape input)
+		(at 184.15 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4825c11-9184-4706-9406-b570fc5fb7c6")
+	)
+	(hierarchical_label "-3.3V"
+		(shape input)
+		(at 97.79 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae28026c-559e-4834-8a49-53b0cd7d0adf")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 232.41 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb665ff5-84bd-4739-be59-5d5255684dcc")
+	)
+	(hierarchical_label "-3.3V"
+		(shape input)
+		(at 232.41 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bba3225d-e033-40e5-ab3a-092055c3eab8")
+	)
+	(hierarchical_label "-150V"
+		(shape input)
+		(at 184.15 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c01ab753-15a9-446f-b258-b6f1677e7323")
+	)
+	(hierarchical_label "-3.3V"
+		(shape input)
+		(at 74.93 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca6a4ac1-028f-4613-a49b-117d32e2c39a")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 40.64 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdab5919-5bb0-4bf2-a893-de10ab9d8557")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 74.93 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d407d61c-3f9b-4a04-95b6-486f8e2048df")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 238.76 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4df66b3-6b42-4965-af78-ba801588e2a8")
+	)
+	(hierarchical_label "PLATE+"
+		(shape input)
+		(at 139.7 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd190243-7f34-4eec-bf32-ad3e0319b4f3")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 74.93 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffcf2548-571f-4a79-a134-53efc141183b")
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 193.04 81.28 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05eaab33-40f6-4e72-ba8f-b18b4b784045")
+		(property "Reference" "Q7"
+			(at 187.96 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FMMT458TA"
+			(at 187.96 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 187.96 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 193.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.225A Ic, 400V Vce, NPN Transistor, SOT-23"
+			(at 193.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "FMMT458TA"
+			(at 193.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 193.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a282385-2b8d-4dcc-837a-7caab59968c0")
+		)
+		(pin "3"
+			(uuid "91015025-e1d5-4d49-bbf0-6958c11d49ef")
+		)
+		(pin "2"
+			(uuid "30b09db5-2182-4097-9027-72e426aef9f9")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "Q36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC857")
+		(at 119.38 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "060b3102-da1a-4296-bdad-b11dc7443584")
+		(property "Reference" "Q?"
+			(at 114.3 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FMMT558TA"
+			(at 114.3 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 114.3 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.225A Ic, 400V Vce, PNP Transistor, SOT-23"
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "FMMT558TA"
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7994af88-547f-425c-97f3-4b7348e250e3")
+		)
+		(pin "2"
+			(uuid "df32947a-4910-43fc-9666-7c0347c924e1")
+		)
+		(pin "1"
+			(uuid "adf88c15-8e8f-4469-b0da-c60a23388b8c")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "Q28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMH6611")
+		(at 228.6 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "071ba23b-695d-41d1-b916-8540f9ba3a8f")
+		(property "Reference" "U2"
+			(at 224.536 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMH6639"
+			(at 224.536 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 226.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmh6612.pdf"
+			(at 224.79 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Supply, 345 MHz, Rail-to-Rail Output, Amplifier, TSOT-23-6"
+			(at 228.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "LMH6639MFX/NOPB"
+			(at 228.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 228.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "ba778cf3-32f3-4705-bf06-cf7206bf11c1")
+		)
+		(pin "6"
+			(uuid "20088028-33f1-4cb9-8434-0af76070306f")
+		)
+		(pin "1"
+			(uuid "ae9f0628-aee7-422f-abea-542f6e7d9ecd")
+		)
+		(pin "3"
+			(uuid "fef8c5ff-4ae1-4ecb-a715-a0f84ff09202")
+		)
+		(pin "5"
+			(uuid "dae89b6a-24ba-4429-986a-cc2559e6beaa")
+		)
+		(pin "2"
+			(uuid "742a02a8-2aed-4ae0-b51d-0a2eca691691")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 259.08 96.52 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "120baf30-b4f9-4ed1-a24a-267f9a4da0c0")
+		(property "Reference" "R11"
+			(at 259.08 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 259.08 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 259.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 259.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF1206FT2K00"
+			(at 259.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 259.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2f29f395-7731-4121-bd18-c4a11d9458ee")
+		)
+		(pin "1"
+			(uuid "b8cafbeb-8e1a-48c2-96a5-e52f1841cb60")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 116.84 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12d88967-5881-4b75-9ea6-f0205b25b568")
+		(property "Reference" "R?"
+			(at 114.3 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3k"
+			(at 114.3 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 116.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 116.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF1206FT2K00"
+			(at 116.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 116.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e9e257b1-8858-46c6-93b0-523c50872cac")
+		)
+		(pin "1"
+			(uuid "39e9b536-a044-469d-bf72-3fa6efc99563")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 119.38 119.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ac06a78-4a0f-49c8-926e-a750fdae7ec1")
+		(property "Reference" "Q?"
+			(at 114.3 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FMMT458TA"
+			(at 114.3 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 114.3 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 119.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.225A Ic, 400V Vce, NPN Transistor, SOT-23"
+			(at 119.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "FMMT458TA"
+			(at 119.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 119.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c642bf14-548c-43f8-bc58-ee53dc967dac")
+		)
+		(pin "3"
+			(uuid "ca706082-5f8b-4fb5-a9b2-2a654b64c662")
+		)
+		(pin "2"
+			(uuid "4530d224-59b7-474b-b4e9-5ddfefa8d58b")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "Q29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC857")
+		(at 114.3 106.68 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ee3bc81-9daf-46c8-a4e5-0c86d7510e57")
+		(property "Reference" "Q?"
+			(at 119.38 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FMMT558TA"
+			(at 119.38 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 119.38 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.225A Ic, 400V Vce, PNP Transistor, SOT-23"
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "FMMT558TA"
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c3e60cc5-9e90-4f58-a019-bbbf28ed6c7c")
+		)
+		(pin "2"
+			(uuid "3cc2d6af-e39a-451e-8842-feac98560486")
+		)
+		(pin "1"
+			(uuid "bb164714-bce7-406a-b7b2-07ef9f991aa3")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "Q27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 78.74 111.76 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "225473d6-a259-414e-8a6d-0bce32a8284d")
+		(property "Reference" "C?"
+			(at 78.74 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "39p"
+			(at 78.74 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 78.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 78.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "QSCP251Q390G1GV001T"
+			(at 78.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 78.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "708a1917-3ff5-4b66-9b32-dca46ddd8e48")
+		)
+		(pin "2"
+			(uuid "6b885da3-2a13-4302-80ce-4be4c433c4d5")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC857")
+		(at 187.96 68.58 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26dbd887-f133-4313-9190-a48794649396")
+		(property "Reference" "Q4"
+			(at 193.04 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FMMT558TA"
+			(at 193.04 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 193.04 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
+			(at 187.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.225A Ic, 400V Vce, PNP Transistor, SOT-23"
+			(at 187.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "FMMT558TA"
+			(at 187.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 187.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4cf14425-d5ea-4e62-8a90-43e544b0adb1")
+		)
+		(pin "2"
+			(uuid "74c3abcf-d992-4c8a-a484-4bf08d99bea2")
+		)
+		(pin "1"
+			(uuid "837bf18a-c542-4fe7-b283-50da99ebfbbd")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "Q34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 251.46 113.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d7139a7-d575-4f29-b6c4-b4d68bfe40e8")
+		(property "Reference" "R15"
+			(at 248.92 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200k"
+			(at 248.92 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RC1206JR-07200KL"
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d178de7d-ebe5-4bd8-9c08-5469be52e766")
+		)
+		(pin "2"
+			(uuid "fe31b597-0b98-4ec9-a4e6-9b0ee0818444")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 187.96 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3945b563-a9a2-473f-b770-81ee859e8266")
+		(property "Reference" "Q16"
+			(at 193.04 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FMMT458TA"
+			(at 193.04 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 193.04 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 187.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.225A Ic, 400V Vce, NPN Transistor, SOT-23"
+			(at 187.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "FMMT458TA"
+			(at 187.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 187.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "934a0844-5b26-4ede-9964-41319565ffda")
+		)
+		(pin "3"
+			(uuid "9b1d17bd-42b4-4246-b1f3-0cb90971fc8a")
+		)
+		(pin "2"
+			(uuid "d4339bf0-1181-4928-bd02-20d7a40cb927")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "Q16")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "Q35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 255.27 113.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48411199-1679-4a7c-b33e-f3d3bb8e380c")
+		(property "Reference" "C6"
+			(at 257.81 111.7662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4p"
+			(at 257.81 114.3062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 255.27 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 255.27 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "QSCP251Q2R0B1GV001T"
+			(at 255.27 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 255.27 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "729e4acf-f0e4-4d72-bcd6-4de6c7fe2415")
+		)
+		(pin "2"
+			(uuid "aa780c58-8d35-45aa-9f35-3757f8732d7d")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 76.2 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "487469cc-9d82-4f66-ad66-e551a45badf6")
+		(property "Reference" "C?"
+			(at 78.74 74.9362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 78.74 77.4762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "C0603C104K5RAC7411"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0646595-6903-4b44-a92b-607a29d9c2b1")
+		)
+		(pin "2"
+			(uuid "dcbc0509-d072-4100-a2fe-2a8de5d0e01b")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 190.5 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cb042c6-70e4-4e09-a06b-f5ced0cd113d")
+		(property "Reference" "R13"
+			(at 193.04 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3k"
+			(at 193.04 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 190.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 190.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF1206FT2K00"
+			(at 190.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 190.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c1dc0251-2b78-4c05-bcfe-faad8b1dd072")
+		)
+		(pin "1"
+			(uuid "cd777ae9-ec9f-496c-9884-f2b8d76b6148")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 99.06 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50ffa43c-e0d9-47b4-814f-6e15f73613e5")
+		(property "Reference" "R?"
+			(at 96.52 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k"
+			(at 96.52 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 99.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 99.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RC0603FR-0710KL"
+			(at 99.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 99.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "745c50c7-364c-484b-bec3-84a07b1ee6e9")
+		)
+		(pin "1"
+			(uuid "dad0d16d-dc0d-4241-acb0-7b2c3712e607")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 190.5 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "565e77dc-bf3e-4a5c-bd42-8fae5a777535")
+		(property "Reference" "R21"
+			(at 193.04 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k"
+			(at 193.04 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 190.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 190.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RT1206FRE075KL"
+			(at 190.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 190.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "909e3838-62c0-4100-b624-1fba7c591207")
+		)
+		(pin "1"
+			(uuid "26dadc7c-e930-45dc-ab90-b4872a87cae3")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 172.72 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c8f2f42-0a63-4774-9434-fe6ad7f2ab20")
+		(property "Reference" "R3"
+			(at 175.26 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k"
+			(at 175.26 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 172.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 172.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF1206FT2K00"
+			(at 172.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 172.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7433f77e-fc07-4e89-b89f-c126a41ba345")
+		)
+		(pin "1"
+			(uuid "4239bf1d-4303-40e5-8aa2-8339ebc46c0c")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R3")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC857")
+		(at 193.04 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63308529-947f-4564-b563-0925d943397a")
+		(property "Reference" "Q11"
+			(at 187.96 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FMMT558TA"
+			(at 187.96 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 187.96 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.225A Ic, 400V Vce, PNP Transistor, SOT-23"
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "FMMT558TA"
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "2c55c081-3968-4e22-bf43-23b8802a81b6")
+		)
+		(pin "2"
+			(uuid "21c1d234-f4b2-45d0-9e4e-0a66d93bdf14")
+		)
+		(pin "1"
+			(uuid "2c8d6034-62bf-4bf2-9666-b1d3e028d305")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "Q11")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "Q37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 132.08 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c8212d1-f7e4-4ff0-b384-caf365c74820")
+		(property "Reference" "Q?"
+			(at 137.16 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FMMT458TA"
+			(at 137.16 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 137.16 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.225A Ic, 400V Vce, NPN Transistor, SOT-23"
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "FMMT458TA"
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 132.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "adbae968-28ce-43ce-a0bb-12571d33f096")
+		)
+		(pin "3"
+			(uuid "d534aacd-dc3a-49e3-aa37-b06b83c4a3b2")
+		)
+		(pin "2"
+			(uuid "ad68626c-d039-4994-8c8a-3503dab19a67")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "Q31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMH6611")
+		(at 78.74 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d6e8226-85b1-4398-80a9-db9150a21410")
+		(property "Reference" "U?"
+			(at 82.804 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMH6639"
+			(at 82.804 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 81.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmh6612.pdf"
+			(at 82.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Supply, 345 MHz, Rail-to-Rail Output, Amplifier, TSOT-23-6"
+			(at 78.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "LMH6639MFX/NOPB"
+			(at 78.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 78.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "4ffda569-5541-4c92-a018-59afbaab81f7")
+		)
+		(pin "6"
+			(uuid "0c5890f3-5204-46f2-a026-1aaf87bd3bfe")
+		)
+		(pin "1"
+			(uuid "ab229829-c6e7-409b-b888-1c812bcd77f3")
+		)
+		(pin "3"
+			(uuid "6ee31323-a58c-4aaa-9ba7-e4fee6298def")
+		)
+		(pin "5"
+			(uuid "c49f6f80-d499-498c-aa2e-124911af1ac9")
+		)
+		(pin "2"
+			(uuid "19cd108c-2d98-4565-a12b-f4e90d07d185")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "U?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 52.07 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76ec7d7a-17e2-400c-99e0-f5c963ca199d")
+		(property "Reference" "R10"
+			(at 52.07 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 52.07 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 52.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 52.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF1206FT2K00"
+			(at 52.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 52.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9235746b-0959-4363-bc23-4db797486721")
+		)
+		(pin "1"
+			(uuid "42d0f44f-fa6c-4d7b-8d5c-6b1a9c486c60")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 205.74 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7fa0073b-a474-41bf-a2b4-1d6944a4696e")
+		(property "Reference" "Q8"
+			(at 210.82 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FMMT458TA"
+			(at 210.82 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 210.82 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 205.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.225A Ic, 400V Vce, NPN Transistor, SOT-23"
+			(at 205.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "FMMT458TA"
+			(at 205.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 205.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c20c79ae-3904-4c8c-917b-b98c7d5bfa65")
+		)
+		(pin "3"
+			(uuid "a5cc19df-bdf8-41f5-8090-caaffc822c1f")
+		)
+		(pin "2"
+			(uuid "4a201d93-24ed-4594-9dc8-5b81136f6c21")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "Q8")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "Q38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 52.07 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8235ffe6-ef1a-42e7-90af-7877072c4004")
+		(property "Reference" "C?"
+			(at 49.53 111.7662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k"
+			(at 49.53 114.3062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 52.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 52.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "QSCP251Q2R0B1GV001T"
+			(at 52.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 52.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "475f1588-7e32-4275-9fbc-4e585e48f325")
+		)
+		(pin "2"
+			(uuid "93e8cb2d-700f-44cb-babf-a580288d338a")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 116.84 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96db4858-6436-4f84-ad09-1a89adaa0370")
+		(property "Reference" "R?"
+			(at 114.3 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k"
+			(at 114.3 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 116.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 116.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RT1206FRE075KL"
+			(at 116.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 116.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0b85cbaa-8b46-4d03-be38-e78075594484")
+		)
+		(pin "1"
+			(uuid "c8e1aa97-ecb8-448f-aa09-5231c06b8078")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 208.28 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a51bfe90-343a-4dbd-b1c6-ca3f2b7bfebe")
+		(property "Reference" "R17"
+			(at 210.82 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k"
+			(at 210.82 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 208.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 208.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RC0603FR-0710KL"
+			(at 208.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 208.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "87b4d1e4-e3a9-4eed-beda-d8a880e77558")
+		)
+		(pin "1"
+			(uuid "df93868f-a541-440c-a335-1afe567f742e")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 190.5 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a71c7f21-bd1b-4bbd-a3b6-936df13972cd")
+		(property "Reference" "R8"
+			(at 193.04 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3k"
+			(at 193.04 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF1206FT2K00"
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ce4ab57b-367a-4751-b26d-46076470f3be")
+		)
+		(pin "1"
+			(uuid "a895ef1a-a440-4d3d-9c5f-7b4b4cabeab1")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 231.14 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac2d99d0-d57b-4037-b9bf-9abbe2af82b9")
+		(property "Reference" "C2"
+			(at 228.6 74.9362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 228.6 77.4762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 231.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 231.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "C0603C104K5RAC7411"
+			(at 231.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a53ac478-ce8a-4e19-9dc8-1b7844a324ea")
+		)
+		(pin "2"
+			(uuid "9c51912c-b413-4083-80d9-f26ca122d290")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "C2")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC857")
+		(at 101.6 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b22a65e4-e76f-4db2-8d80-d58cb82a0637")
+		(property "Reference" "Q?"
+			(at 96.52 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FMMT558TA"
+			(at 96.52 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 96.52 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.225A Ic, 400V Vce, PNP Transistor, SOT-23"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "FMMT558TA"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "09a4e2fa-56d7-43e2-85dd-edcfe2682900")
+		)
+		(pin "2"
+			(uuid "487ece7c-2958-494c-ae68-5751cae17452")
+		)
+		(pin "1"
+			(uuid "c8dba0f1-269c-4960-98b3-74a84d727461")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "Q25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC857")
+		(at 205.74 106.68 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b401a23e-d712-4ab4-965a-c6eb65834a8d")
+		(property "Reference" "Q12"
+			(at 210.82 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FMMT558TA"
+			(at 210.82 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 210.82 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.225A Ic, 400V Vce, PNP Transistor, SOT-23"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "FMMT558TA"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "fd3ee672-f771-46d8-ac69-e9c9e29de9f0")
+		)
+		(pin "2"
+			(uuid "4d4a9fa7-9ff3-4aff-9052-59d996f6b78c")
+		)
+		(pin "1"
+			(uuid "b273bb31-68d5-4d97-a0cb-8c9195df751e")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "Q12")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "Q39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC857")
+		(at 132.08 68.58 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8ec185d-8fbf-469b-bfa5-3e5b39d9e8f8")
+		(property "Reference" "Q?"
+			(at 137.16 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FMMT558TA"
+			(at 137.16 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 137.16 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.225A Ic, 400V Vce, PNP Transistor, SOT-23"
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "FMMT558TA"
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "eea8ada4-8574-4d2c-b7ac-a203c989e5fa")
+		)
+		(pin "2"
+			(uuid "ce0fbb7c-5232-42b0-93a1-d6f19e96d506")
+		)
+		(pin "1"
+			(uuid "1261e0b7-ad9e-4b12-a7f3-3055f945ffda")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "Q30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 114.3 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b948b812-2244-4d88-a505-e3f7a609036d")
+		(property "Reference" "Q?"
+			(at 119.38 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FMMT458TA"
+			(at 119.38 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 119.38 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.225A Ic, 400V Vce, NPN Transistor, SOT-23"
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "FMMT458TA"
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4dd1459-82fc-4466-b353-35700709e822")
+		)
+		(pin "3"
+			(uuid "55698aa5-87b0-4ea9-addf-cd3860e9a274")
+		)
+		(pin "2"
+			(uuid "2a6cf4a4-ee4f-4fbd-998b-738ab9b7b74d")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "Q26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 134.62 128.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2f96e87-2a88-4046-9ecf-0f2a9c6f8ac2")
+		(property "Reference" "R?"
+			(at 132.08 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k"
+			(at 132.08 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 134.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 134.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF1206FT2K00"
+			(at 134.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 134.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9eb80093-dac9-4665-85c1-d641c3035861")
+		)
+		(pin "1"
+			(uuid "b2528d62-2a16-4512-896b-afd94bb8f3d4")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 208.28 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2fb013b-8a2a-4d1e-8755-1fc0f10db1c0")
+		(property "Reference" "R6"
+			(at 210.82 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k"
+			(at 210.82 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 208.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 208.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RC0603FR-0710KL"
+			(at 208.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 208.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "87ebd9f0-2b01-4ec4-8737-ea7730a51800")
+		)
+		(pin "1"
+			(uuid "5b1c1813-b987-4d01-b988-2f7f47f665e1")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 116.84 97.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7b63a95-924b-4c08-b8d8-2de10048963b")
+		(property "Reference" "R?"
+			(at 114.3 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3k"
+			(at 114.3 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF1206FT2K00"
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2525d6cf-9a89-4055-a649-3a31148f4b1a")
+		)
+		(pin "1"
+			(uuid "bc0b1174-d94c-4a20-914b-2951b9295b05")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 175.26 119.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca79fc36-a828-4e4e-9eee-17e959ad6d92")
+		(property "Reference" "Q15"
+			(at 170.18 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FMMT458TA"
+			(at 170.18 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 170.18 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.225A Ic, 400V Vce, NPN Transistor, SOT-23"
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "FMMT458TA"
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6acb6ffb-5b0f-4e7c-bb0b-d6a317217bca")
+		)
+		(pin "3"
+			(uuid "6fc30f92-aed6-4ee8-9bee-36ea08a3db09")
+		)
+		(pin "2"
+			(uuid "b549e289-07f0-4fac-b3ba-e5e8a092d5aa")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "Q15")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "Q33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 45.72 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6e61f61-b135-4b72-96a9-62c68c8cc4db")
+		(property "Reference" "R?"
+			(at 45.72 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 45.72 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF1206FT2K00"
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1ebdf47e-8e06-42c8-aa87-0aad96980331")
+		)
+		(pin "1"
+			(uuid "6824ea4e-d67f-491f-a584-475f5f8017f6")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 55.88 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbf691e7-8703-478d-8ea0-bfceb7737306")
+		(property "Reference" "R?"
+			(at 58.42 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200k"
+			(at 58.42 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 55.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 55.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RC1206JR-07200KL"
+			(at 55.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 55.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59dd3b6e-64a9-4138-b3ba-5e9d8d154c66")
+		)
+		(pin "2"
+			(uuid "d7d818b7-fe34-49ba-a23a-99d36b911242")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 134.62 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df984553-2d96-4fc9-a42d-238a9e4e41c3")
+		(property "Reference" "R?"
+			(at 132.08 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k"
+			(at 132.08 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 134.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 134.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF1206FT2K00"
+			(at 134.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 134.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "437ce169-5716-4a25-be42-0c0a82e2e7ef")
+		)
+		(pin "1"
+			(uuid "a2733f5a-273c-41c2-add8-4c0464654e77")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 116.84 128.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5338cf5-7af1-4970-8bb1-6d72e37c30e1")
+		(property "Reference" "R?"
+			(at 114.3 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k"
+			(at 114.3 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 116.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 116.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RT1206FRE075KL"
+			(at 116.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 116.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ee41822d-b5c3-4bfb-b103-e5fd8a066af1")
+		)
+		(pin "1"
+			(uuid "38bee192-3b0e-4b79-8223-b2f60bcbe031")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 190.5 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e76fad18-4913-4835-859d-f777cf41d5ce")
+		(property "Reference" "R4"
+			(at 193.04 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k"
+			(at 193.04 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RT1206FRE075KL"
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ab92d6b0-f187-495e-9d5c-b2647806591e")
+		)
+		(pin "1"
+			(uuid "c15e872a-ee3c-4b7f-bced-6013f6a84582")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R4")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 228.6 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed1131c0-0e82-43d4-acf4-713ea9d9926b")
+		(property "Reference" "C4"
+			(at 228.6 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "39p"
+			(at 228.6 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 228.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 228.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "QSCP251Q390G1GV001T"
+			(at 228.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 228.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6d09f3c-cfa9-43de-bd86-3e68bb946cf5")
+		)
+		(pin "2"
+			(uuid "bb203961-4b60-4e5c-a29f-4f9564096a01")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 99.06 71.12 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edddc6e7-52e0-4551-bebe-b97331bfc4b5")
+		(property "Reference" "R?"
+			(at 96.52 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k"
+			(at 96.52 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 99.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 99.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RC0603FR-0710KL"
+			(at 99.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 99.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1000332c-0e6a-4e26-b949-8cd95cb2dadd")
+		)
+		(pin "1"
+			(uuid "52b7b252-c19c-40f7-86ed-ce62fb946275")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC857")
+		(at 175.26 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2cafbbf-dfe2-413c-ab53-a8b2480a5446")
+		(property "Reference" "Q3"
+			(at 170.18 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FMMT558TA"
+			(at 170.18 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 170.18 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
+			(at 175.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.225A Ic, 400V Vce, PNP Transistor, SOT-23"
+			(at 175.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "FMMT558TA"
+			(at 175.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 175.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f35b0e7a-aaec-4e30-a0b8-9720a8e06877")
+		)
+		(pin "2"
+			(uuid "eddd5344-2a9c-4d46-a652-4f040c35ad4e")
+		)
+		(pin "1"
+			(uuid "ddf525de-f02e-4f0c-a9e6-52c9e726d245")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "Q32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 172.72 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f95b79be-5636-4810-ad95-c88560c46d5f")
+		(property "Reference" "R20"
+			(at 175.26 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k"
+			(at 175.26 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 172.72 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 172.72 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF1206FT2K00"
+			(at 172.72 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 172.72 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "edb68390-b0e1-423e-8c1d-6672fcc9200f")
+		)
+		(pin "1"
+			(uuid "8965bbe9-2a7a-47f4-8f21-d3701974e8e7")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 101.6 81.28 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9e97364-5761-452f-aed4-2032fd3c29d6")
+		(property "Reference" "Q?"
+			(at 96.52 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FMMT458TA"
+			(at 96.52 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 96.52 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 101.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.225A Ic, 400V Vce, NPN Transistor, SOT-23"
+			(at 101.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "FMMT458TA"
+			(at 101.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB P/N" ""
+			(at 101.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "355c47c3-1f45-464c-a02c-63f191f38110")
+		)
+		(pin "3"
+			(uuid "6276a58e-2503-4286-b419-c49e6f1f14ea")
+		)
+		(pin "2"
+			(uuid "6c9f903a-fee2-4777-aa25-beb9d3207b31")
+		)
+		(instances
+			(project "deflection_amp_5"
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/40190505-6698-4b56-b73f-97dc7fa5f70d"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/6a2cac4d-1670-49ef-a405-8d053f96416a/c00387c2-0ff1-454a-842e-f483d96069de"
+					(reference "Q24")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

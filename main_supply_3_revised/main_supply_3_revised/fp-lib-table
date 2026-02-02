@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Vishay FET/footprints.pretty")(options "")(descr ""))
+  (lib (name "DA2032-AL")(type "KiCad")(uri "${KIPRJMOD}/Libraries/DA2032-AL/DA2032-AL.pretty")(options "")(descr ""))
+)
