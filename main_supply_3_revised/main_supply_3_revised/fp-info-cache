@@ -1,4 +1,4 @@
-24772468632206645
+24776057955486926
 2242-m2
 2242-key-E
 
@@ -17161,8 +17161,8 @@ JST_VH_B5P-VH-B_1x05_P3.96mm_Vertical
 JST VH PBT series connector, B5P-VH-B (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
 connector JST VH vertical
 0
-5
-5
+3
+3
 Connector_JST
 JST_VH_B5P-VH-FB-B_1x05_P3.96mm_Vertical
 JST VH series connector, B5P-VH-FB-B, shrouded (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf),  generated with kicad-footprint-generator
@@ -55250,6 +55250,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+DA2032-AL
+DA2032-AL
+
+
+0
+12
+12
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -99648,6 +99655,13 @@ coilcraft
 NA5920-AL
 
 
+0
+8
+8
+footprints
+MOSFET_50DP-T1-E3_VIS
+
+SI7450DP-T1-E3 
 0
 8
 8

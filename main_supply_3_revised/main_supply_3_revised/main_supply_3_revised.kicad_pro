@@ -107,6 +107,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -458,6 +459,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -734,12 +736,12 @@
       "Root"
     ],
     [
-      "5d9038f4-035e-47df-99b4-3249b4b57769",
-      "A2 Supply"
-    ],
-    [
       "3d671f18-2a34-4d13-8ede-8d5ea60814b9",
       "A3 Supply"
+    ],
+    [
+      "5d9038f4-035e-47df-99b4-3249b4b57769",
+      "A2 Supply"
     ],
     [
       "b43aee2f-3408-4325-bb37-b45184a95622",
