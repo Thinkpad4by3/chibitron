@@ -9,7 +9,9 @@ Uses the LM5180 Primary Side Regulated flyback controller. This was the easiest 
 
 The use of a PSR regulator was great since it eliminated the need for any output sense such as a TL431 or large resistor ladder, and made it quite easy to slap a few of them on for the A2, Filament & Grid drive all with one converter. The supply was biased such that the ground reference could be moved around as needed, for experimentation purposes. 
 
-Otherwise, the overall design was quite simple, and would be further revised later.
+Focus and Brightness are controlled through resistor dividers between A2 and Cathode.
+
+Otherwise, the overall design was quite simple, and would be further revised later. 
 
 Link: https://www.analog.com/en/resources/technical-articles/1000-v-output-no-opto-isolated-flyback-converter.html
 
