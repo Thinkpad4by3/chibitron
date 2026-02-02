@@ -44,6 +44,7 @@ High Voltage supplies:
 - main_supply_2: 1st generation 1500V + FILTERED
 - main_supply_3: 2nd generation 2kV + 2kV 
 - main_supply_3_revised: 2nd generation 2kV + 2kV BUG FIXED
+
 Deflection:
 - deflection_board: 1st generation ANALOG
 - deflection_board_2: 2nd generation ANALOG
