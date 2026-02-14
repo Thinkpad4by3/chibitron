@@ -1,0 +1,7 @@
+(version 1)
+(rule "HV nets: 1.0mm clearance to any other net"
+  (constraint clearance (min 1.0mm))
+  (condition
+    "A.NetClass == 'HighVoltage' && B.Net != A.Net"
+  )
+)
