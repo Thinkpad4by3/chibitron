@@ -3,4 +3,7 @@
   (lib (name "ACPL_ISO_OPAMP")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ACPL_ISO_OPAMP.kicad_sym")(options "")(descr ""))
   (lib (name "op_amp")(type "KiCad")(uri "${KIPRJMOD}/Libraries/op_amp.kicad_sym")(options "")(descr ""))
   (lib (name "750315839")(type "KiCad")(uri "${KIPRJMOD}/Libraries/750315839/750315839.kicad_sym")(options "")(descr ""))
+  (lib (name "LM5155DSSR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LM5155DSSR/LM5155DSSR.kicad_sym")(options "")(descr ""))
+  (lib (name "JST-VH")(type "KiCad")(uri "${KIPRJMOD}/Libraries/JST-VH/JST-VH.kicad_sym")(options "")(descr ""))
+  (lib (name "YA9033-ALD")(type "KiCad")(uri "${KIPRJMOD}/Libraries/YA9033-ALD/YA9033-ALD.kicad_sym")(options "")(descr ""))
 )

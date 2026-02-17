@@ -1,4 +1,8 @@
 (fp_lib_table
   (version 7)
   (lib (name "750315839")(type "KiCad")(uri "${KIPRJMOD}/Libraries/750315839")(options "")(descr ""))
+  (lib (name "NetTie")(type "KiCad")(uri "${KIPRJMOD}/Libraries/NetTie.pretty")(options "")(descr ""))
+  (lib (name "LM5155DSSR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LM5155DSSR/LM5155DSSR.pretty")(options "")(descr ""))
+  (lib (name "JST_VH")(type "KiCad")(uri "${KIPRJMOD}/Libraries/JST-VH/JST_VH.pretty")(options "")(descr ""))
+  (lib (name "YA9033-ALD")(type "KiCad")(uri "${KIPRJMOD}/Libraries/YA9033-ALD/YA9033-ALD.pretty")(options "")(descr ""))
 )

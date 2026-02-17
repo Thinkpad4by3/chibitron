@@ -1,11 +1,32 @@
-24774293122989032
-2242-m2
-2242-key-E
+24747733620375699
+0399-T208
+0399-T208
 
 
 0
-69
-69
+12
+12
+13324-T087
+13324-T087
+
+
+0
+10
+10
+750313441
+WE-FLYLT_EP10_6052
+<b>WE-FLYLT Flyback Transformers for Linear Technology<br></b><br>Size: EP10,SMT,8pins<br>Bobbin: 070-6052
+
+0
+8
+8
+750313974
+WE-FLYLT_EP10_6052
+<b>WE-FLYLT Flyback Transformers for Linear Technology<br></b><br>Size: EP10,SMT,8pins<br>Bobbin: 070-6052
+
+0
+8
+8
 750315839
 WE-FLYLT_EP13_5465
 
@@ -13,13 +34,6 @@ WE-FLYLT_EP13_5465
 0
 10
 10
-ADS1158IRTCT
-QFN50P700X700X90-49N
-
-
-0
-49
-49
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2589,13 +2603,6 @@ speaker CUI
 0
 2
 2
-CP2105
-QFN24_0.5
-<b>QFN 4x4 mm</b><p>Source: http://www.hittite.com/product_info/product_specs/dividersdetectors/hmc394lp4.pdf
-
-0
-25
-25
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -17168,8 +17175,8 @@ JST_VH_B5P-VH-B_1x05_P3.96mm_Vertical
 JST VH PBT series connector, B5P-VH-B (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
 connector JST VH vertical
 0
-3
-3
+5
+5
 Connector_JST
 JST_VH_B5P-VH-FB-B_1x05_P3.96mm_Vertical
 JST VH series connector, B5P-VH-FB-B, shrouded (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf),  generated with kicad-footprint-generator
@@ -19625,8 +19632,8 @@ Molex_KK-396_5273-03A_1x03_P3.96mm_Vertical
 Molex KK 396 Interconnect System, old/engineering part number: 5273-03A example for new part number: 09-65-2038, 3 Pins (https://www.molex.com/pdm_docs/sd/009652028_sd.pdf), generated with kicad-footprint-generator
 connector Molex KK-396 vertical
 0
-2
-2
+3
+3
 Connector_Molex
 Molex_KK-396_5273-04A_1x04_P3.96mm_Vertical
 Molex KK 396 Interconnect System, old/engineering part number: 5273-04A example for new part number: 09-65-2048, 4 Pins (https://www.molex.com/pdm_docs/sd/009652028_sd.pdf), generated with kicad-footprint-generator
@@ -57280,13 +57287,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-EPC2218A
-TRANS_EPC2218A
+EVERLIGHT_SMDLED
+1616RGBLED
 
 
 0
-8
-8
+4
+4
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -64532,6 +64539,13 @@ THT
 0
 4
 2
+JST_VH
+JST_VH_B3P5-VH-B_1x05_P3.96mm_Vertical
+JST VH PBT series connector, B5P-VH-B (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator
+connector JST VH vertical
+0
+3
+3
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
@@ -64679,13 +64693,6 @@ solder jumper open
 0
 3
 3
-LAN9252
-QFP50P1200X1200X120-65N
-
-
-0
-65
-65
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -65890,69 +65897,55 @@ Yellow 5381 Series LED
 0
 2
 2
-LM5145
-QFN50P450X350X100-21N
-
-
-0
-25
-25
-LM5148
-QFN50P550X350X100-25N
-
-
-0
-25
-25
 LM5155
 IC_LM5155DSSR
 
 
 0
-13
-13
-LMG2100
-RAR0016B-MFG
+16
+16
+LM5155DSSR
+IC_LM5155DSSR
 
-LMG2100R044RARR 
+
 0
-32
-17
-LMG2100
+16
+13
+LM5157
 Untitled
 
 
 0
 0
 0
-LSM6DSOXTR
-PQFN50P250X300X86-14N
+LM5180
+SON80P400X400X80-9N
 
 
 0
-14
-14
-LTC7891
-QFN50P500X400X80-29N
+9
+9
+LMR14020
+VREG_LM5017MR_NOPB
 
 
 0
-29
-29
-MBDT50Q-U1MV2
-XCVR_MDBT50Q-U1MV2
+17
+17
+LT8304
+SOIC127P599X175-9N
+LT8304 - 100VIN Micropower No-Opto Isolated Flyback Converter with 150V/2A Switch4
+
+0
+9
+9
+MEMS_SMD
+1.85x2.75mm MEMS
 
 
 0
-61
-61
-MCP4822-E_SN
-SOIC127P599X175-8N
-
-
-0
-8
-8
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -68621,89 +68614,12 @@ threaded screw
 4
 1
 NetTie
-NetTie-2_SMD_Pad0.5mm
-Net tie, 2 pin, 0.5mm square SMD pads
-net tie
+NetTie_0.2mm
+
+
 0
 2
 2
-NetTie
-NetTie-2_SMD_Pad2.0mm
-Net tie, 2 pin, 2.0mm square SMD pads
-net tie
-0
-2
-2
-NetTie
-NetTie-2_THT_Pad0.3mm
-Net tie, 2 pin, 0.3mm round THT pads
-net tie
-0
-2
-2
-NetTie
-NetTie-2_THT_Pad1.0mm
-Net tie, 2 pin, 1.0mm round THT pads
-net tie
-0
-2
-2
-NetTie
-NetTie-3_SMD_Pad0.5mm
-Net tie, 3 pin, 0.5mm square SMD pads
-net tie
-0
-3
-3
-NetTie
-NetTie-3_SMD_Pad2.0mm
-Net tie, 3 pin, 2.0mm square SMD pads
-net tie
-0
-3
-3
-NetTie
-NetTie-3_THT_Pad0.3mm
-Net tie, 3 pin, 0.3mm round THT pads
-net tie
-0
-3
-3
-NetTie
-NetTie-3_THT_Pad1.0mm
-Net tie, 3 pin, 1.0mm round THT pads
-net tie
-0
-3
-3
-NetTie
-NetTie-4_SMD_Pad0.5mm
-Net tie, 4 pin, 0.5mm square SMD pads
-net tie
-0
-4
-4
-NetTie
-NetTie-4_SMD_Pad2.0mm
-Net tie, 4 pin, 2.0mm square SMD pads
-net tie
-0
-4
-4
-NetTie
-NetTie-4_THT_Pad0.3mm
-Net tie, 4 pin, 0.3mm round THT pads
-net tie
-0
-4
-4
-NetTie
-NetTie-4_THT_Pad1.0mm
-Net tie, 4 pin, 1.0mm round THT pads
-net tie
-0
-4
-4
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -87744,6 +87660,13 @@ Potentiometer vertical vishay
 0
 3
 3
+RCJ-011
+CUI_RCJ-011
+<b>DC POWER JACK</b><p>Source: DCJ0202.pdf
+
+0
+4
+4
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
@@ -92973,13 +92896,6 @@ Logo WEEE
 0
 0
 0
-TPS631000DRLR
-SOT50P160X60-8N
-
-
-0
-8
-8
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -98839,13 +98755,6 @@ igbt diode module
 0
 25
 25
-USB2422
-QFN50P400X400X100-25N
-<b>24-Pin SQFN</b><br>
-
-0
-25
-25
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -99630,20 +99539,20 @@ Varistor VF
 0
 2
 2
-WA-SMSI_9774XXX243
-WA-SMSI_9774025243
-<B>WA-SMSI SMT Steel Spacer, M2 Thread Internal<BR></B>Thread Internal M2<BR>Height = 1mm
-
-0
-1
-1
-WE_LAN
-WE-LAN_749020023A
+WurthTransformer
+EP13
 
 
 0
-24
-24
+10
+10
+XL-1615RGBC-RF
+XL-1615RGBC-RF
+
+
+0
+4
+4
 YA9033-ALD
 XFMR_YA9033-ALD
 
@@ -99651,17 +99560,3 @@ XFMR_YA9033-ALD
 0
 8
 8
-coilcraft
-NA5920-AL
-
-
-0
-8
-8
-wurth
-693071020811
-
-
-0
-13
-13

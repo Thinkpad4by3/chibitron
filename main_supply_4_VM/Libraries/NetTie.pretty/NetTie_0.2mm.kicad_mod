@@ -1,0 +1,86 @@
+(footprint "NetTie_0.2mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4e564773-64dc-4161-bce9-1320ade8a5bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "NetTie_0.2mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d796ff2e-c79b-485a-8702-ee762a3eabe3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09cb7b4b-2ce3-4bd7-aaad-a9d763f4e2a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0917310d-e0b5-47bc-9c66-347c48ff5186")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(net_tie_pad_groups "1,2")
+	(fp_rect
+		(start -0.4 -0.1)
+		(end 0.4 0.1)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "49a0acc9-21ac-4108-8490-f201988e515e")
+	)
+	(pad "1" smd circle
+		(at -0.4 0)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0)
+		(uuid "2ea4683e-caaf-4dac-84d7-89c806350216")
+	)
+	(pad "2" smd circle
+		(at 0.4 0)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0)
+		(uuid "1736ab4c-8163-44d6-8fe0-3b1a5f879ffa")
+	)
+	(embedded_fonts no)
+)

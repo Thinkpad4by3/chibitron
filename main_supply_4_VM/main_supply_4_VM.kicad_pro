@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -134,7 +134,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
@@ -493,21 +493,105 @@
       },
       {
         "clearance": 1.0,
-        "name": "HighVoltage",
+        "name": "HV Feedback",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2
+      },
+      {
+        "clearance": 1.0,
+        "name": "High Voltage",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2
+        "track_width": 0.5
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/A3 Supply/+PDA": [
+        "High Voltage"
+      ],
+      "/A3 Supply/PDA_FB": [
+        "High Voltage"
+      ],
+      "Net-(D1-A)": [
+        "High Voltage"
+      ],
+      "Net-(D3-A)": [
+        "High Voltage"
+      ],
+      "Net-(D3-K)": [
+        "High Voltage"
+      ],
+      "Net-(D6-A)": [
+        "High Voltage"
+      ],
+      "Net-(D6-K)": [
+        "High Voltage"
+      ],
+      "Net-(R25-Pad1)": [
+        "HV Feedback"
+      ],
+      "Net-(R26-Pad1)": [
+        "HV Feedback"
+      ],
+      "Net-(R27-Pad1)": [
+        "HV Feedback"
+      ],
+      "Net-(R28-Pad1)": [
+        "HV Feedback"
+      ],
+      "Net-(R29-Pad1)": [
+        "HV Feedback"
+      ],
+      "Net-(R30-Pad1)": [
+        "HV Feedback"
+      ],
+      "Net-(R31-Pad1)": [
+        "HV Feedback"
+      ],
+      "Net-(R32-Pad1)": [
+        "HV Feedback"
+      ],
+      "Net-(R33-Pad1)": [
+        "HV Feedback"
+      ],
+      "Net-(R56-Pad1)": [
+        "HV Feedback"
+      ],
+      "Net-(R57-Pad1)": [
+        "HV Feedback"
+      ],
+      "Net-(R58-Pad1)": [
+        "HV Feedback"
+      ],
+      "Net-(R59-Pad1)": [
+        "HV Feedback"
+      ],
+      "Net-(R60-Pad1)": [
+        "HV Feedback"
+      ],
+      "Net-(R61-Pad1)": [
+        "HV Feedback"
+      ],
+      "Net-(R62-Pad1)": [
+        "HV Feedback"
+      ],
+      "Net-(R63-Pad1)": [
+        "HV Feedback"
+      ],
+      "Net-(R64-Pad1)": [
+        "HV Feedback"
+      ]
+    },
     "netclass_patterns": [
       {
-        "netclass": "HighVoltage",
+        "netclass": "HV Feedback",
         "pattern": "*HV_FB*"
       }
     ]
@@ -757,12 +841,12 @@
       "A3 Supply"
     ],
     [
-      "5d9038f4-035e-47df-99b4-3249b4b57769",
-      "A2 Supply"
-    ],
-    [
       "8ff957b6-b2dd-4c74-9ecd-09bed1e54e8f",
       "10M Resistor1"
+    ],
+    [
+      "5d9038f4-035e-47df-99b4-3249b4b57769",
+      "A2 Supply"
     ],
     [
       "b06fa918-1b21-446e-bdd1-1ea9bdd6d44b",
