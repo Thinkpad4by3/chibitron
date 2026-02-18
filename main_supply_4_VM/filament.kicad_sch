@@ -4092,7 +4092,7 @@
 	)
 	(text "secondary\nside\nsoft-start"
 		(exclude_from_sim no)
-		(at 293.37 87.122 0)
+		(at 292.608 87.122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4143,7 +4143,7 @@
 		(uuid "071dc5e7-037d-4ed1-ac0d-3cc0c50ecd02")
 	)
 	(junction
-		(at 289.56 92.71)
+		(at 288.29 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "097bc1f1-428f-4b60-b470-f744ead3f16e")
@@ -4209,7 +4209,7 @@
 		(uuid "50634370-3f61-451e-b45e-1d75b4e38289")
 	)
 	(junction
-		(at 289.56 135.89)
+		(at 288.29 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "507294e1-7708-4dac-97f7-5dc7fff1363b")
@@ -4299,7 +4299,7 @@
 		(uuid "9c3cf35a-0615-4b47-b5bb-93a8f4277c2b")
 	)
 	(junction
-		(at 289.56 110.49)
+		(at 288.29 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1fd5ad4-838b-466f-b79b-fb81bcc0b676")
@@ -4552,7 +4552,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 92.71) (xy 289.56 101.6)
+			(xy 288.29 92.71) (xy 288.29 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4722,7 +4722,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 92.71) (xy 289.56 92.71)
+			(xy 278.13 92.71) (xy 288.29 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4732,7 +4732,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 110.49) (xy 297.18 110.49)
+			(xy 288.29 110.49) (xy 297.18 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4882,7 +4882,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 135.89) (xy 289.56 135.89)
+			(xy 278.13 135.89) (xy 288.29 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5022,7 +5022,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 92.71) (xy 297.18 92.71)
+			(xy 288.29 92.71) (xy 297.18 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5332,7 +5332,7 @@
 	)
 	(polyline
 		(pts
-			(xy 288.29 91.44) (xy 288.29 90.17)
+			(xy 287.02 91.44) (xy 287.02 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5452,7 +5452,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 109.22) (xy 289.56 110.49)
+			(xy 288.29 109.22) (xy 288.29 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5582,7 +5582,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 119.38) (xy 289.56 135.89)
+			(xy 288.29 119.38) (xy 288.29 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5792,7 +5792,7 @@
 	)
 	(polyline
 		(pts
-			(xy 288.29 90.17) (xy 298.45 90.17)
+			(xy 287.02 90.17) (xy 298.45 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5812,7 +5812,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 135.89) (xy 292.1 135.89)
+			(xy 288.29 135.89) (xy 292.1 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5952,7 +5952,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 110.49) (xy 289.56 111.76)
+			(xy 288.29 110.49) (xy 288.29 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6334,7 +6334,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 289.56 105.41 270)
+		(at 288.29 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6343,7 +6343,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c18951b-caab-44b8-a501-436cd245e29a")
 		(property "Reference" "D17"
-			(at 292.1 105.0924 90)
+			(at 290.83 105.0924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6352,7 +6352,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 292.1 106.3624 90)
+			(at 290.83 106.3624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,7 +6362,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 289.56 105.41 0)
+			(at 288.29 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6371,7 +6371,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 289.56 105.41 0)
+			(at 288.29 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6380,7 +6380,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 289.56 105.41 0)
+			(at 288.29 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6389,7 +6389,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 289.56 105.41 0)
+			(at 288.29 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7298,7 +7298,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 289.56 115.57 270)
+		(at 288.29 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7307,7 +7307,7 @@
 		(fields_autoplaced yes)
 		(uuid "58aefdc9-49f4-457f-af38-de816dcb8d93")
 		(property "Reference" "D18"
-			(at 292.1 115.2524 90)
+			(at 290.83 115.2524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7316,7 +7316,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 292.1 116.5224 90)
+			(at 290.83 116.5224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,7 +7326,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 289.56 115.57 0)
+			(at 288.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,7 +7335,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 289.56 115.57 0)
+			(at 288.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7344,7 +7344,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 289.56 115.57 0)
+			(at 288.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7353,7 +7353,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 289.56 115.57 0)
+			(at 288.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7614,7 +7614,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7u"
 			(at 300.99 118.1099 0)
 			(effects
 				(font
@@ -10984,7 +10984,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100k"
 			(at 299.72 105.4099 0)
 			(effects
 				(font
